@@ -51,8 +51,8 @@ hum_status = heatStatus[0]
 #hum_status = thing_read.hum_status()
 heat_status = heatStatus[0]
 print()
-print("Sending Data ThingSpeak & FB Using Pi")
-print("----------------------------------------")
+print("Sending Home Climate Data ThingSpeak & FB Using Pi")
+print("--------------------------------------------------")
 t = time.localtime()
 sense.clear()
 
