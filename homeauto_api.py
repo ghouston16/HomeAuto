@@ -147,7 +147,7 @@ def hum_post():
     else:
         hum_status = "Off"
         mytext = 'Turn the Humidity Off'
-        text_speech.myCommand(wake))
+        text_speech.myCommand(wake)
         text_speech.myCommand(mytext)
         os.system('python3 smtp_heatOn.py')
         print()

@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python3 read_write_process.py & homeauto.py
+python3 homeauto_api.py & python3 read_write_process.py
