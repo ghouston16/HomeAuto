@@ -567,3 +567,53 @@ WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 335-826-188
 INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 20:13:23] "GET /sensehat/hum HTTP/1.1" 200 -
 INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 20:13:58] "GET /sensehat/hum HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
