@@ -1,0 +1,569 @@
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+DEBUG:gtts.tts:text: Turn the Heat On
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eb6bb8>, <function end_of_line at 0x74eb6db0>, <function abbreviations at 0x74eb6ed0>, <function word_sub at 0x74ec1300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|;|،|‥|\\(|—|¡|…|\\)|：|¿|\\[|。|，|、|\\\n|\\]', re.IGNORECASE) from: [<function tone_marks at 0x74ec1390>, <function period_comma at 0x74ec13d8>, <function colon at 0x74ec1420>, <function other_punctuation at 0x74ec1468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eb6bb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eb6db0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eb6ed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ec1300>
+DEBUG:gtts.tts:text_parts: ['Turn the Heat On']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Heat%20On%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 18:54:03] "POST /sensehat/heating?state=on HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+DEBUG:gtts.tts:text: Turn the Heat On
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74efcbb8>, <function end_of_line at 0x74efcdb0>, <function abbreviations at 0x74efced0>, <function word_sub at 0x74f07300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\\n|\\[|…|\\)|。|，|¡|\\]|،|、|\\(|¿|;|：|—|‥', re.IGNORECASE) from: [<function tone_marks at 0x74f07390>, <function period_comma at 0x74f073d8>, <function colon at 0x74f07420>, <function other_punctuation at 0x74f07468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74efcbb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74efcdb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74efced0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74f07300>
+DEBUG:gtts.tts:text_parts: ['Turn the Heat On']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Heat%20On%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 18:57:08] "POST /sensehat/heating?state=on HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+DEBUG:gtts.tts:text: Turn the Heat On
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eb8bb8>, <function end_of_line at 0x74eb8db0>, <function abbreviations at 0x74eb8ed0>, <function word_sub at 0x74ec3300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|\\)|：|\\(|\\]|\\\n|‥|…|;|、|—|\\[|،|¿|¡|。|，', re.IGNORECASE) from: [<function tone_marks at 0x74ec3390>, <function period_comma at 0x74ec33d8>, <function colon at 0x74ec3420>, <function other_punctuation at 0x74ec3468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eb8bb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eb8db0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eb8ed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ec3300>
+DEBUG:gtts.tts:text_parts: ['Turn the Heat On']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Heat%20On%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 18:59:17] "POST /sensehat/heating?state=on HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+DEBUG:gtts.tts:text: Turn the Heat On
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74e89bb8>, <function end_of_line at 0x74e89db0>, <function abbreviations at 0x74e89ed0>, <function word_sub at 0x74e94300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|;|—|：|\\]|…|\\[|‥|，|\\)|。|\\\n|،|¡|、|¿|\\(', re.IGNORECASE) from: [<function tone_marks at 0x74e94390>, <function period_comma at 0x74e943d8>, <function colon at 0x74e94420>, <function other_punctuation at 0x74e94468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74e89bb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74e89db0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74e89ed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74e94300>
+DEBUG:gtts.tts:text_parts: ['Turn the Heat On']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Heat%20On%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 19:00:39] "POST /sensehat/heating?state=on HTTP/1.1" 200 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+INFO:werkzeug: * Detected change in '/home/pi/week7/project/homeAutoM8/homeauto_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+INFO:werkzeug: * Detected change in '/home/pi/week7/project/homeAutoM8/homeauto_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+INFO:werkzeug: * Detected change in '/home/pi/week7/project/homeAutoM8/homeauto_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+INFO:werkzeug: * Detected change in '/home/pi/week7/project/homeAutoM8/homeauto_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+INFO:werkzeug: * Detected change in '/home/pi/week7/project/homeAutoM8/homeauto_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+INFO:werkzeug: * Detected change in '/home/pi/week7/project/homeAutoM8/homeauto_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+INFO:werkzeug: * Detected change in '/home/pi/week7/project/homeAutoM8/homeauto_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+DEBUG:gtts.tts:text: Hey Google ! 
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Hey Google !']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hey%20Google%20%21%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '148'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+DEBUG:gtts.tts:text: Turn the Heat Off
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Turn the Heat Off']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Heat%20Off%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '153'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 19:55:39] "POST /sensehat/heating?state=off HTTP/1.1" 200 -
+DEBUG:gtts.tts:text: Hey Google ! 
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Hey Google !']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hey%20Google%20%21%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '148'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+DEBUG:gtts.tts:text: Turn the Heat On
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Turn the Heat On']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Heat%20On%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '152'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 19:56:34] "POST /sensehat/heating?state=on HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 19:56:57] "POST /sensehat/heat5000/sensehat/hum?state=on HTTP/1.1" 404 -
+DEBUG:gtts.tts:text: Hey Google ! 
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Hey Google !']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hey%20Google%20%21%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '148'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+DEBUG:gtts.tts:text: Turn the Humidity On
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Turn the Humidity On']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Humidity%20On%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '156'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 19:57:25] "POST /sensehat/hum?state=on HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 19:57:38] "POST /sensehat/heat5000/sensehat/hum?state=off HTTP/1.1" 404 -
+DEBUG:gtts.tts:text: Hey Google ! 
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Hey Google !']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hey%20Google%20%21%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '148'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+DEBUG:gtts.tts:text: Turn the Humidity Off
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Turn the Humidity Off']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Humidity%20Off%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '157'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 19:57:49] "POST /sensehat/hum?state=off HTTP/1.1" 200 -
+DEBUG:gtts.tts:text: Hey Google ! 
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Hey Google !']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hey%20Google%20%21%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '148'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+DEBUG:gtts.tts:text: Turn the Humidity On
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74eeebb8>, <function end_of_line at 0x74eeedb0>, <function abbreviations at 0x74eeeed0>, <function word_sub at 0x74ef9300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|—|¿|\\]|\\[|：|，|‥|\\\n|…|。|\\)|;|\\(|،', re.IGNORECASE) from: [<function tone_marks at 0x74ef9390>, <function period_comma at 0x74ef93d8>, <function colon at 0x74ef9420>, <function other_punctuation at 0x74ef9468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74eeebb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74eeedb0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74eeeed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74ef9300>
+DEBUG:gtts.tts:text_parts: ['Turn the Humidity On']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Humidity%20On%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '156'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 19:58:06] "POST /sensehat/hum?state=on HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/home/pi/week7/project/homeAutoM8/homeauto_api.py', reloading
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+DEBUG:gtts.tts:text: Hey Google ! 
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74f49bb8>, <function end_of_line at 0x74f49db0>, <function abbreviations at 0x74f49ed0>, <function word_sub at 0x74f54300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|\\)|‥|\\[|\\(|：|¿|—|。|，|،|;|\\]|…|\\\n', re.IGNORECASE) from: [<function tone_marks at 0x74f54390>, <function period_comma at 0x74f543d8>, <function colon at 0x74f54420>, <function other_punctuation at 0x74f54468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74f49bb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74f49db0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74f49ed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74f54300>
+DEBUG:gtts.tts:text_parts: ['Hey Google !']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Hey%20Google%20%21%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '148'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+DEBUG:gtts.tts:text: Turn the Humidity Off
+DEBUG:gtts.tts:tld: com
+DEBUG:gtts.tts:lang: en
+DEBUG:gtts.tts:slow: False
+DEBUG:gtts.tts:lang_check: True
+DEBUG:gtts.tts:pre_processor_funcs: [<function tone_marks at 0x74f49bb8>, <function end_of_line at 0x74f49db0>, <function abbreviations at 0x74f49ed0>, <function word_sub at 0x74f54300>]
+DEBUG:gtts.tts:tokenizer_func: <bound method Tokenizer.run of re.compile('(?<=\\?).|(?<=!).|(?<=？).|(?<=！).|(?<!\\.[a-z])\\. |(?<!\\.[a-z]), |(?<!\\d):|¡|、|\\)|‥|\\[|\\(|：|¿|—|。|，|،|;|\\]|…|\\\n', re.IGNORECASE) from: [<function tone_marks at 0x74f54390>, <function period_comma at 0x74f543d8>, <function colon at 0x74f54420>, <function other_punctuation at 0x74f54468>]>
+DEBUG:gtts.lang:langs: {'af': 'Afrikaans', 'ar': 'Arabic', 'bn': 'Bengali', 'bs': 'Bosnian', 'ca': 'Catalan', 'cs': 'Czech', 'cy': 'Welsh', 'da': 'Danish', 'de': 'German', 'el': 'Greek', 'en': 'English', 'eo': 'Esperanto', 'es': 'Spanish', 'et': 'Estonian', 'fi': 'Finnish', 'fr': 'French', 'gu': 'Gujarati', 'hi': 'Hindi', 'hr': 'Croatian', 'hu': 'Hungarian', 'hy': 'Armenian', 'id': 'Indonesian', 'is': 'Icelandic', 'it': 'Italian', 'ja': 'Japanese', 'jw': 'Javanese', 'km': 'Khmer', 'kn': 'Kannada', 'ko': 'Korean', 'la': 'Latin', 'lv': 'Latvian', 'mk': 'Macedonian', 'ml': 'Malayalam', 'mr': 'Marathi', 'my': 'Myanmar (Burmese)', 'ne': 'Nepali', 'nl': 'Dutch', 'no': 'Norwegian', 'pl': 'Polish', 'pt': 'Portuguese', 'ro': 'Romanian', 'ru': 'Russian', 'si': 'Sinhala', 'sk': 'Slovak', 'sq': 'Albanian', 'sr': 'Serbian', 'su': 'Sundanese', 'sv': 'Swedish', 'sw': 'Swahili', 'ta': 'Tamil', 'te': 'Telugu', 'th': 'Thai', 'tl': 'Filipino', 'tr': 'Turkish', 'uk': 'Ukrainian', 'ur': 'Urdu', 'vi': 'Vietnamese', 'zh-CN': 'Chinese', 'zh-cn': 'Chinese (Mandarin/China)', 'zh-tw': 'Chinese (Mandarin/Taiwan)', 'en-us': 'English (US)', 'en-ca': 'English (Canada)', 'en-uk': 'English (UK)', 'en-gb': 'English (UK)', 'en-au': 'English (Australia)', 'en-gh': 'English (Ghana)', 'en-in': 'English (India)', 'en-ie': 'English (Ireland)', 'en-nz': 'English (New Zealand)', 'en-ng': 'English (Nigeria)', 'en-ph': 'English (Philippines)', 'en-za': 'English (South Africa)', 'en-tz': 'English (Tanzania)', 'fr-ca': 'French (Canada)', 'fr-fr': 'French (France)', 'pt-br': 'Portuguese (Brazil)', 'pt-pt': 'Portuguese (Portugal)', 'es-es': 'Spanish (Spain)', 'es-us': 'Spanish (United States)'}
+DEBUG:gtts.tts:pre-processing: <function tone_marks at 0x74f49bb8>
+DEBUG:gtts.tts:pre-processing: <function end_of_line at 0x74f49db0>
+DEBUG:gtts.tts:pre-processing: <function abbreviations at 0x74f49ed0>
+DEBUG:gtts.tts:pre-processing: <function word_sub at 0x74f54300>
+DEBUG:gtts.tts:text_parts: ['Turn the Humidity Off']
+DEBUG:gtts.tts:text_parts: 1
+DEBUG:gtts.tts:data-0: f.req=%5B%5B%5B%22jQ1olc%22%2C%22%5B%5C%22Turn%20the%20Humidity%20Off%5C%22%2C%5C%22en%5C%22%2Cnull%2C%5C%22null%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&
+INFO:requests.packages.urllib3.connectionpool:Starting new HTTPS connection (1): translate.google.com
+DEBUG:requests.packages.urllib3.connectionpool:"POST /_/TranslateWebserverUi/data/batchexecute HTTP/1.1" 200 None
+DEBUG:gtts.tts:headers-0: {'Referer': 'http://translate.google.com/', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36', 'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8', 'Content-Length': '157'}
+DEBUG:gtts.tts:url-0: https://translate.google.com/_/TranslateWebserverUi/data/batchexecute
+DEBUG:gtts.tts:status-0: 200
+DEBUG:gtts.tts:part-0 written to <_io.BufferedWriter name='climate_ctrl.mp3'>
+DEBUG:gtts.tts:Saved to climate_ctrl.mp3
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 20:08:04] "POST /sensehat/hum?state=off HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 20:08:26] "GET /sensehat/hum HTTP/1.1" 500 -
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 20:09:06] "GET /sensehat/hum HTTP/1.1" 500 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 20:11:55] "GET /sensehat/hum HTTP/1.1" 500 -
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+DEBUG:PIL.PngImagePlugin:STREAM b'IHDR' 16 13
+DEBUG:PIL.PngImagePlugin:STREAM b'pHYs' 41 9
+DEBUG:PIL.PngImagePlugin:STREAM b'tIME' 62 7
+DEBUG:PIL.PngImagePlugin:b'tIME' 62 7 (unknown)
+DEBUG:PIL.PngImagePlugin:STREAM b'tEXt' 81 25
+DEBUG:PIL.PngImagePlugin:STREAM b'IDAT' 118 774
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 335-826-188
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 20:13:23] "GET /sensehat/hum HTTP/1.1" 200 -
+INFO:werkzeug:192.168.137.159 - - [07/Jan/2021 20:13:58] "GET /sensehat/hum HTTP/1.1" 200 -
