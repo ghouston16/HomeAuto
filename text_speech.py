@@ -21,4 +21,5 @@ def myCommand(mytext):
   myobj.save("climate_ctrl.mp3") 
   
 # Playing the converted file
+  os.system("mpg321 wake.mp3") 
   os.system("mpg321 climate_ctrl.mp3") 

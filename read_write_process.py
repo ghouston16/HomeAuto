@@ -1,18 +1,19 @@
 #!/usr/bin/python3
 
-import pyrebase
-import requests
-from urllib.request import urlopen
-import urllib3
-urllib3.disable_warnings()
-import  json
-import  time
-from sense_hat import SenseHat
-import os
-import text_speech
+import pyrebase 
+
+import requests 
+from urllib.request import urlopen  
+import urllib3 
+urllib3.disable_warnings()  
+import json 
+import time 
+from sense_hat import SenseHat 
+import os 
+import text_speech 
 import smtplib, ssl
 # ThingSpeak Read Key
-READ_API_KEY='BD51E7YUF68EK8S5'
+READ_API_KEY='BD51E7YUF68EK8S5' 
 CHANNEL_ID= 1225740
 
 # import hum_control
@@ -71,8 +72,8 @@ while True:
     now = dt_now.time().strftime("%H:%M:%S")
     # Setting intial decision window for device
     # State changes
-    t_heatOn = datetime.time(hour=8, minute=00)
-    t_heatOff = datetime.time(hour=23, minute=00)
+    t_heatOn = datetime.time(hour=0, minute=00)
+    t_heatOff = datetime.time(hour=16, minute=00)
     # Get sensor Data from SenseHat
     temp=round(sense.get_temperature(),2)
     press=round(sense.get_pressure(),2)
@@ -82,10 +83,10 @@ while True:
     # Decides action updates status as needed
     if t_now > t_heatOn and t_now < t_heatOff:
       if temp <= 35 and heatStatus[0] == "Off":
-        text_speech.myCommand(wake)
         mytext = 'Turn the Heat On'
       # requests.post(heatingOn) -- This method call works but ties
       # script to server function s
+       # text_speech.myCommand(wake)
         text_speech.myCommand(mytext)
         os.system('python3 smtp_heatOn.py') # Email Notification
         print()
@@ -96,7 +97,7 @@ while True:
       # Temp Over 40 turn OFF
       elif temp > 38 and heatStatus[0] == "On":
         #requests.post(heatingOff)
-        text_speech.myCommand(wake)
+        #text_speech.myCommand(wake)
         mytext = 'Turn the Heat Off'
         text_speech.myCommand(mytext)
         print()
@@ -106,8 +107,8 @@ while True:
         print(heatStatus[0])
         print()
       if hum < 35 and humStatus[0] == "Off":
-        text_speech.myCommand(wake)
         mytext = 'Turn the Humidity On'
+       # text_speech.myCommand(wake)
         text_speech.myCommand(mytext)
         humStatus.insert(0, "On")
         hum_status = humStatus[0]
@@ -115,7 +116,7 @@ while True:
         print('Humidifier: ' + hum_status)
         print()
       elif hum >= 45 and humStatus[0] == "On":
-        text_speech.myCommand(wake)
+        #text_speech.myCommand(wake)
         mytext = 'Turn the Humidity Off'
         os.system('python3 smtp_humOff.py')
         text_speech.myCommand(mytext)
@@ -124,7 +125,7 @@ while True:
         print()
     elif (t_now < t_heatOn or t_now > t_heatOff) and heatStatus[0] == "On":
       mytext = 'Turn the Heat Off'
-      text_speech.myCommand(wake)
+      #text_speech.myCommand(wake)
       text_speech.myCommand(mytext)
       os.system('python3 smtp_heatOff.py')
       print()
@@ -134,7 +135,7 @@ while True:
       print()
     if (t_now < t_heatOn or t_now > t_heatOff) and (humStatus[0] == "On"):
       mytext = 'Turn the Humidity Off'
-      text_speech.myCommand(wake)
+     # text_speech.myCommand(wake)
       text_speech.myCommand(mytext)
       humStatus.insert(0, 'Off')
       os.system('python3 smtp_humOff.py')
@@ -174,4 +175,4 @@ while True:
     db.child("sense").child("1-set").set(data)
     # Data pushed to main branch of db
     db.child("sense").child("2-push").push(data)
-    time.sleep(30)
+    time.sleep(15)

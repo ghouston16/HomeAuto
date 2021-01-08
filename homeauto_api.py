@@ -108,7 +108,7 @@ def heat_post():
     print (state)
     if (state=="on"):
         heat_status = "On"
-        text_speech.myCommand(wake)
+       # text_speech.myCommand(wake)
         mytext = 'Turn the Heat On'
         text_speech.myCommand(mytext)
         os.system('python3 smtp_heatOn.py')
@@ -119,7 +119,7 @@ def heat_post():
     else:
         heat_status = "Off"
         mytext = 'Turn the Heat Off'
-        text_speech.myCommand(wake)
+       # text_speech.myCommand(wake)
         text_speech.myCommand(mytext)
         os.system('python3 smtp_heatOff.py')
         print()
@@ -136,7 +136,7 @@ def hum_post():
     print (state)
     if (state=="on"):
         hum_status = "On"
-        text_speech.myCommand(wake)
+       # text_speech.myCommand(wake)
         mytext = 'Turn the Humidity On'
         text_speech.myCommand(mytext)
         os.system('python3 smtp_humOn.py')
@@ -147,7 +147,7 @@ def hum_post():
     else:
         hum_status = "Off"
         mytext = 'Turn the Humidity Off'
-        text_speech.myCommand(wake)
+        #text_speech.myCommand(wake)
         text_speech.myCommand(mytext)
         os.system('python3 smtp_heatOn.py')
         print()
