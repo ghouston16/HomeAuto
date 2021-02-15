@@ -2,8 +2,8 @@
 from urllib.request import urlopen
 import json
 import time
-READ_API_KEY='BD51E7YUF68EK8S5'
-CHANNEL_ID= 1225740
+READ_API_KEY='YOUR_API_KEY'
+CHANNEL_ID= <CHANNEL_ID>
 
 
 def main():
