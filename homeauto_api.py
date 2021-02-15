@@ -38,8 +38,7 @@ wake = 'Hey Google ! '
 heatStatus = []
 humStatus = []
 sense = SenseHat()
-READ_API_KEY='BD51E7YUF68EK8S5'
-CHANNEL_ID= 1225740
+READ_API_KEY=<YOU_API_KEY>
 
 #clear sensehat
 sense.clear()
