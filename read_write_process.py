@@ -13,8 +13,8 @@ import os
 import text_speech 
 import smtplib, ssl
 # ThingSpeak Read Key
-READ_API_KEY='BD51E7YUF68EK8S5' 
-CHANNEL_ID= 1225740
+READ_API_KEY='YOUR_API_KEY' 
+CHANNEL_ID= <YOUR_CHANNEL_ID>
 
 # import hum_control
 import datetime
@@ -22,16 +22,16 @@ sense = SenseHat()
 humStatus = []
 heatStatus = []
 # ThingSpeak Write Key
-WRITE_API_KEY='51XKXHR7P0E89BZO'
+WRITE_API_KEY='YOUR_WRITE_API_KEY'
 
-baseURL='https://api.thingspeak.com/update?api_key=51XKXHR7P0E89BZO'
+baseURL='https://api.thingspeak.com/update?api_key=WRITE_API_KEY'
 
 # Firebase Config
 config = {
-  "apiKey": "AIzaSyCsEMqKmKA6-X84fXM_MKNl4R2cLIra7iA",
-  "authDomain": "sensepi-d3afe.firebaseapp.com",
-  'storageBucket': 'sensepi-d3afe.appspot.com',
-  'databaseURL':'https://sensepi-d3afe-default-rtdb.firebaseio.com/'
+  "apiKey": "api_key",
+  "authDomain": "YOUR_AUTH_DOMAIN",
+  'storageBucket': 'YOUR_STORAGE_BUCKET,
+  'databaseURL':'YOUR_DB_URL'
 }
 firebase = pyrebase.initialize_app(config)
 db = firebase.database()
